@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/et_criterionname"
+        android:hint="@string/homework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true" />
+    
+    <TextView 
+        android:id="@+id/tv_criterionweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inputcriteria_weight"
+        android:layout_below="@id/et_criterionname"/>
+    
+    <EditText 
+        android:id="@+id/et_criterionweight"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/tv_criterionweight"
+        android:layout_below="@id/et_criterionname" />
+
+</RelativeLayout>

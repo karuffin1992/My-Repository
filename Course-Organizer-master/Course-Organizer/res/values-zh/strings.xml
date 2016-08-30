@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">课程助手</string>
+    <string name="startup_welcome">欢迎</string>
+    <string name="year_year">年份</string>
+    <string name="year_gpa">GPA</string>
+    <string name="semester_semester">学期</string>
+    <string name="item_item">项目</string>
+    <string name="inputitems_grade">成绩(%): </string>
+    <string name="inputitems_hint">95.4</string>
+    <string name="inputcriteria_weight">占总分比例: </string>
+    <string name="criteria_criteria">分类</string>
+    <string name="course_course">科目</string>
+    <string name="year_addyear">新加 年份</string>
+    <string name="semester_addsemester">新加 学期</string>
+    <string name="course_addcourse">新加 科目</string>
+    <string name="criteria_addcriteria">新加 标准</string>
+    <string name="items_additems">新加 项目</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="delete">删除</string>
+    <string name="course_name_hint">课程名</string>
+    <string name="year_name_hint">2013</string>
+    <string name="input_grade_scale">比例表</string>
+    <string name="a_plus">A+    97.0</string>
+    <string name="a">A    93.0</string>
+    <string name="a_minus">A-    90.0</string>
+    <string name="b_plus">B+    87.0</string>
+    <string name="b">B    83.0</string>
+    <string name="b_minus">B-    80.0</string>
+    <string name="c_plus">C+    77.0</string>
+    <string name="c">C    73.0</string>
+    <string name="c_minus">C-    70.0</string>
+    <string name="d_plus">D+    67.0</string>
+    <string name="d">D    63.0</string>
+    <string name="d_minus">D-    60.0</string>
+    <string name="homework">作业</string>
+    <string name="name">名字</string>
+    <string name="logo">logo</string>
+    <string name="three">3</string>
+    <string name="credit_hours">学分</string>
+    <string name="spring">春学期</string>
+
+</resources>

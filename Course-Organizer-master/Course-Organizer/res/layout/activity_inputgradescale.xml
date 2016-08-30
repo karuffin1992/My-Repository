@@ -1,0 +1,155 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2" >
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/et_inputcoursename"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="center_horizontal"
+            android:hint="@string/course_name_hint"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_credithours"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/credit_hours" />
+
+        <EditText
+            android:id="@+id/et_input_credit_hours"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="@string/three"
+            android:inputType="number"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_input_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="@string/input_grade_scale"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/a_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/a_plus"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/a"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/a_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/a_minus"
+            android:inputType="number"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/b_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/b_plus"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/b"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/b_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/b_minus"
+            android:inputType="number"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/c_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/c_plus"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/c"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/c_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/c_minus"
+            android:inputType="number"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/d_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d_plus"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/d_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d_minus"
+            android:inputType="number"
+            android:singleLine="true" />
+    </TableRow>
+
+</TableLayout>

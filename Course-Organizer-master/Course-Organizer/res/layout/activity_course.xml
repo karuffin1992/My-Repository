@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity" >
+
+    <TextView
+        android:id="@+id/tv_yearpathcourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:onClick="returnToYear"
+        android:textColor="@android:color/primary_text_dark"
+        android:textStyle="bold"
+        tools:ignore="SelectableText" />
+
+    <TextView
+        android:id="@+id/tv_semesterpath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/tv_yearpathcourse"
+        android:clickable="true"
+        android:onClick="returnToSemester"
+        android:textColor="@android:color/primary_text_dark"
+        android:textStyle="bold"
+        tools:ignore="SelectableText" />
+
+    <TextView
+        android:id="@+id/tv_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="@string/course_course"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_course"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="28dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/tv_pluscourse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ts_gold_plus_button"
+        android:onClick="plusCourse" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ts_logo_layerstyle"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
